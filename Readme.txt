@@ -1,4 +1,4 @@
-Welcome to Aleppy Tourist 
+Welcome to Alleppy Tourist 
 
 Aleppy, also known as Alappuzha, is a charming tourist destination located in the southern state of Kerala, India. Blessed with natural beauty and a unique network of backwaters, canals, and lagoons, Aleppy offers a serene and mesmerizing experience to travelers.
 
