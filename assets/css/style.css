@@ -45,7 +45,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #1a1814;
+  background: #4e698f;
 }
 
 #preloader:before {
@@ -53,7 +53,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1a1814;
+  border: 6px solid #4e698f;
   border-top-color: #cda45e;
   border-bottom-color: #cda45e;
   border-radius: 50%;
@@ -97,7 +97,7 @@ h6 {
 
 .back-to-top:hover {
   background: #cda45e;
-  color: #1a1814;
+  color: #4e698f;
 }
 
 .back-to-top:hover i {
@@ -170,18 +170,28 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(12, 11, 9, 0.6);
-  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  background: #4e698f6f;
+  border-bottom: 1px solid #4e698f5b;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 997; 
   padding: 15px 0;
   top: 40px;
 }
 
 #header.header-scrolled {
-  top: 0;
+  /* top: 0;
   background: rgba(0, 0, 0, 0.85);
-  border-bottom: 1px solid #37332a;
+  backdrop-filter: blur(10px) saturate(180%);
+  border-bottom: 1px solid #37332a; */
+  top: 0;
+  background-color: rgba(27, 27, 107, 0.5); /* Adjust opacity to control the glass effect */
+  backdrop-filter: blur; /* This property creates the frosted glass effect */
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
 #header .logo {
@@ -208,7 +218,7 @@ h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
+  border: 2px solid #fdfdff;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -220,7 +230,7 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #cda45e;
+  background: #13dc0f;
   color: #fff;
 }
 
@@ -401,7 +411,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1a1814;
+  color: #4e698f;
 }
 
 .navbar-mobile a:hover,
@@ -491,7 +501,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #cda45e;
+  color: #8184ab;
 }
 
 #hero h2 {
@@ -650,7 +660,7 @@ section {
 }
 
 .section-bg {
-  background-color: #1a1814;
+  background-color: #4e698f;
 }
 
 .section-title {
@@ -853,7 +863,7 @@ section {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #1a1814;
+  background: #4e698f;
 }
 
 .why-us .box span {
@@ -956,7 +966,7 @@ section {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #1a1814;
+  background: #4e698f;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -969,7 +979,7 @@ section {
 }
 
 .menu .menu-content span {
-  background: #1a1814;
+  background: #4e698f;
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -1012,7 +1022,7 @@ section {
 }
 
 .specials .nav-link.active {
-  color: #1a1814;
+  color: #4e698f;
   background: #cda45e;
   border-color: #cda45e;
 }
@@ -1196,7 +1206,7 @@ section {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #cda45e;
-  border-top-color: #1a1814;
+  border-top-color: #4e698f;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1518,7 +1528,7 @@ section {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #cda45e;
-  border-top-color: #1a1814;
+  border-top-color: #4e698f;
   animation: animate-loading 1s linear infinite;
 }
 
