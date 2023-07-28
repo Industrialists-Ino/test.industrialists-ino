@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+Welcome to alapyTourist
 
 Template Name: Restaurantly
 Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
