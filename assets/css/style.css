@@ -86,17 +86,17 @@ h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #cda45e;
+  border: 2px solid #6f8d4f;
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: #6f8d4f;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #cda45e;
+  background: #6f8d4f;
   color: #4e698f;
 }
 
@@ -230,7 +230,7 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #13dc0f;
+  background: #6f8d4f;
   color: #fff;
 }
 
@@ -286,7 +286,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d9ba85;
+  color: #6f8d4f;
 }
 
 .navbar .dropdown ul {
@@ -417,7 +417,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #cda45e;
+  color: #8184ab;
 }
 
 .navbar-mobile .getstarted,
@@ -532,7 +532,7 @@ h6 {
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #8184ab;
+  background: #6f8d4f;
   color: #fff;
 }
 
@@ -543,7 +543,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#8184ab 50%, rgba(205, 164, 94, 0.4) 52%);
+  background: radial-gradient(#8184ab 50%, rgba(18, 11, 20, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -577,14 +577,14 @@ h6 {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(205, 164, 94, 0.7);
+  border: 5px solid rgba(255, 255, 255, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #8184ab;
+  border-left: 15px solid #6f8d4f;
   transform: scale(20);
 }
 
@@ -756,7 +756,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg2.webp") center center;
+  background: url("../img/bg\ about.png") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -791,8 +791,8 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-left: 5px solid #6f8d4f;
+  border-top: 5px solid #6f8d4f;
   transition: 0.5s;
 }
 
@@ -804,8 +804,8 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid #6f8d4f;
+  border-bottom: 5px solid #6f8d4f;
   transition: 0.5s;
 }
 
