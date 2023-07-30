@@ -54,8 +54,8 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #4e698f;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border-top-color: #6f8d4f;
+  border-bottom-color: #6f8d4f;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -184,7 +184,7 @@ h6 {
   backdrop-filter: blur(10px) saturate(180%);
   border-bottom: 1px solid #37332a; */
   top: 0;
-  background-color: rgba(27, 27, 107, 0.5); /* Adjust opacity to control the glass effect */
+  background-color: #4e698f6f; /* Adjust opacity to control the glass effect */
   backdrop-filter: blur(10px); /* This property creates the frosted glass effect */
   padding: 10px 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
@@ -193,7 +193,6 @@ h6 {
   align-items: center;
   
 }
-
 #header .logo {
   font-size: 28px;
   margin: 0;
