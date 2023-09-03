@@ -682,7 +682,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -691,7 +691,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255);
   margin: 4px 10px;
 }
 
@@ -701,7 +701,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -798,7 +798,7 @@ section {
   z-index: 1;
   content: "";
   border-left: 5px solid #6f8d4f;
-  border-top: 5px solid #6f8d4f;
+  border-top: 5px solid rgb(111, 141, 79);
   transition: 0.5s;
 }
 
@@ -866,18 +866,34 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+.why-us {
+  background: url("/assets/img/hero-bg2.webp") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.why-us:before {
+  content: "";
+  background: rgba(9, 9, 9, 0.663);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #4e698f;
+  background: #ffffff;
 }
 
 .why-us .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  color: #6f8d4f;
 }
 
 .why-us .box h4 {
@@ -885,7 +901,7 @@ section {
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(26, 23, 23, 0.8);
 }
 
 .why-us .box p {
@@ -896,7 +912,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cda45e;
+  background: #6f8d4f;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -905,6 +921,14 @@ section {
 .why-us .box:hover h4,
 .why-us .box:hover p {
   color: #fff;
+}
+
+.why-us .box a{
+
+}
+
+.service-img{
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -1219,7 +1243,7 @@ section {
 
 .book-a-table .php-email-form input,
 .book-a-table .php-email-form textarea {
-  border-radius: 0;
+  border-radius: 32px;
   box-shadow: none;
   font-size: 14px;
   background: #0c0b09;
@@ -1347,6 +1371,23 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+
+.gallery{
+    background: url("https://github.com/Industrialists-Ino/industrialists.ino1/assets/115163920/c63dde0b-58ee-4658-8c82-85d91d2db854") center center;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0; 
+}
+.gallery:before {
+  content: "";
+  background: #03020280;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #454035;
