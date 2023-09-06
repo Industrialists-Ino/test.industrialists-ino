@@ -868,6 +868,15 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+/* #why-us:before {
+  content: "";
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
 .why-us {
   background: url("/assets/img/hero-bg2.webp") center center;
   background-size: cover;
@@ -877,7 +886,7 @@ section {
 
 .why-us:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.37);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1395,8 +1404,9 @@ section {
 
 .gallery .gallery-item {
   overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
+  /* border-right: 3px solid #454035; */
+  /* border-bottom: 3px solid #454035; */
+  padding: 5px;
 }
 
 .gallery .gallery-item img {
