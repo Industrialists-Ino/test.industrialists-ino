@@ -102,7 +102,7 @@ h6 {
 .back-to-top:hover {
   background: #6f8d4f;
   color: #4e698f;
-}
+} 
 
 .back-to-top:hover i {
   color: #444444;
@@ -111,6 +111,11 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.bg-color{
+  background: #ffffff;
+  position: relative;
 }
 
 /*--------------------------------------------------------------
@@ -356,6 +361,15 @@ h6 {
   }
 }
 
+.box1{
+  background-color: white;
+  height: inherit;
+  
+  border-radius :  5px;
+  height: 1000px;
+  width: 1000px;
+}
+
 /**
 * Mobile Navigation 
 */
@@ -366,6 +380,10 @@ h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  position:relative;
+  align-items: flex-end;
+  right: 100%;
+  /* left: 0; */
 }
 
 @media (max-width: 991px) {
@@ -657,6 +675,9 @@ h6 {
     opacity: 0;
   }
 }
+
+/* spilt contact--------------------- */
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -1040,6 +1061,58 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.whymee {
+  background: url("/assets/img/event-private.jpg") center center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+  width:99%;
+  height: 500px;
+}
+
+.whymee:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.37);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.whymee .box {
+  width:fit-content;
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.whymee .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #6f8d4f;
+}
+
+.whymee .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: rgba(26, 23, 23, 0.8);
+}
+
+.whymee .box p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
@@ -1407,14 +1480,17 @@ section {
   /* border-right: 3px solid #454035; */
   /* border-bottom: 3px solid #454035; */
   padding: 5px;
+  border-radius: 10px;
 }
 
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
+  border-radius: 10px;
 }
 
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1426,6 +1502,11 @@ section {
   background: #343a40;
   position: relative;
   overflow: hidden;
+}
+
+.logo-m{
+  width: 220px ;
+  height :50px;
 }
 
 .chefs .member .member-info {
