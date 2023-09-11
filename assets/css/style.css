@@ -1070,6 +1070,26 @@ section {
   height: 500px;
 }
 
+.logom{
+  width : auto ;
+  height :auto;
+  position: relative;
+  z-index: 1;
+}
+
+.con23{
+  position:relative;
+  text-align: left;
+}
+
+.contact1{
+  float: right;
+  background: #ffffff;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+
 .whymee:before {
   content: "";
   background: rgba(0, 0, 0, 0.37);
