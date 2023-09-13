@@ -490,6 +490,7 @@ h6 {
   background-size: cover;
   position: relative;
   padding: 0;
+  text-align: right;
 }
 
 #hero:before {
@@ -903,6 +904,7 @@ section {
   background-size: cover;
   position: relative;
   padding: 80px 0;
+  
 }
 
 .why-us:before {
@@ -949,6 +951,13 @@ section {
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
+
+@media (min-width: 1024px) {
+  .why-us {
+    background-attachment: fixed;
+  }
+}
+
 
 .why-us .box:hover span,
 .why-us .box:hover h4,
