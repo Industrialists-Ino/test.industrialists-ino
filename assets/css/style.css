@@ -533,6 +533,7 @@ h6 {
   color: #eee;
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
+  
 }
 
 #hero .btns {
@@ -1400,7 +1401,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #d3af71;
+  background: #6f8d4f;
 }
 
 /*--------------------------------------------------------------
@@ -1440,7 +1441,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #d3af71;
+  color: #6f8d4f;
   font-size: 26px;
 }
 
@@ -1624,7 +1625,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #4c9002;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1700,7 +1701,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
+  border: 3px solid #70cf0b;
   border-top-color: #4e698f;
   animation: animate-loading 1s linear infinite;
 }
@@ -1748,7 +1749,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #d3af71;
+  background: #6f8d4f;
 }
 
 @keyframes animate-loading {
@@ -1900,7 +1901,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #d3af71;
+  background: #6f8d4f;
 }
 
 #footer .copyright {
