@@ -1162,7 +1162,7 @@ section {
 }
 
 .specials .nav-tabs {
-  border: 0;
+  border: 1000px;
 }
 
 .specials .nav-link {
@@ -1174,6 +1174,7 @@ section {
   border-right: 2px solid #cda45e;
   font-weight: 600;
   font-size: 15px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .specials .nav-link:hover {
