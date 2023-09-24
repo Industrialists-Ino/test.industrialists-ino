@@ -899,6 +899,7 @@ section {
   background-size: cover;
   position: relative;
   padding: 80px 0;
+  font-family: 'Poppins', sans-serif;
   
 }
 
@@ -910,6 +911,8 @@ section {
   top: 0;
   left: 0;
   right: 0;
+  font-family: 'Poppins', sans-serif;
+
 }
 .why-us .box {
   padding: 40px 20px;
@@ -933,6 +936,8 @@ section {
   padding: 0;
   margin: 20px 0;
   color: rgba(26, 23, 23, 0.8);
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .why-us .box p {
@@ -958,6 +963,8 @@ section {
 .why-us .box:hover span,
 .why-us .box:hover h4,
 .why-us .box:hover p {
+  font-family: 'Poppins', sans-serif;
+
   color: #fff;
 }
 
