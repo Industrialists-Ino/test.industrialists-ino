@@ -984,99 +984,7 @@ section {
   margin-top: -80px;
 }
 
-/*--------------------------------------------------------------
-# gallery
---------------------------------------------------------------*/
 
-.gallery {
-  background: url("https://github.com/Industrialists-Ino/test.industrialists-ino/assets/53377403/f83fbf45-14dd-4388-b55d-9801cbc2ec8c") center center;
-  background-size: cover;
-  position: relative;
-  padding: 80px 0;
-  font-family: 'Poppins', sans-serif;
-  
-}
-
-.gallery:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.37);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  font-family: 'Poppins', sans-serif;
-
-}
-.gallery .box {
-  padding: 40px 20px;
-  margin : 5px 10px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out 0.3s;
-  background: #ffffff;
-  border-radius: 10px;
-}
-
-.gallery .box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #6f8d4f;
-}
-
-.gallery .box h4 {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
-  color: rgba(26, 23, 23, 0.8);
-  font-family: 'Poppins', sans-serif;
-
-}
-
-.gallery .box p {
-  color: #aaaaaa;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-
-.gallery .box:hover {
-  background: #6f8d4f;
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-}
-
-@media (min-width: 1024px) {
-  .gallery {
-    background-attachment: fixed;
-  }
-}
-
-
-.gallery .box:hover span,
-.gallery .box:hover h4,
-.gallery .box:hover p {
-  font-family: 'Poppins', sans-serif;
-
-  color: #fff;
-}
-
-/* .gallery .box a{
-
-} */
-
-
-.service-img{
-  width: 100%;
-  border-radius: 5px;
-}
-
-.service-imggg{
-  width: 100%;
-  border-radius: 5px;
-  margin-top: -80px;
-}
 
 
 /*--------------------------------------------------------------
@@ -1847,7 +1755,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #cda45e;
+  background: #6f8d4f;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1856,7 +1764,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #6f8d4f;
+  background: #70cf0b;
 }
 
 @keyframes animate-loading {
@@ -2021,4 +1929,26 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+/* icon */
+.icon-bar {
+  width: 100%; /* Set a specific width */
+  padding-top: 30px;
+  /* background-color: #555; Dark-grey background */
+  justify-content: center;
+}
+
+.icon-bar a {
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: #6f8d4f; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+.icon-bar a:hover {
+  background-color: transparent; /* Add a hover color */
+}
+.container1{
+  align-items: center;
+  text-align: center;
 }
