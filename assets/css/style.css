@@ -984,10 +984,10 @@ section {
   margin-top: -80px;
 }
 
-/*--------------------------------------------------------------
-# gallery
---------------------------------------------------------------*/
 
+/*--------------------------------------------------------------
+# Galley
+--------------------------------------------------------------*/
 .gallery {
   background: url("https://github.com/Industrialists-Ino/test.industrialists-ino/assets/53377403/f83fbf45-14dd-4388-b55d-9801cbc2ec8c") center center;
   background-size: cover;
@@ -1062,7 +1062,7 @@ section {
   color: #fff;
 }
 
-/* .gallery .box a{
+/* .why-us .box a{
 
 } */
 
@@ -1077,6 +1077,7 @@ section {
   border-radius: 5px;
   margin-top: -80px;
 }
+
 
 
 /*--------------------------------------------------------------
@@ -1847,7 +1848,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #cda45e;
+  background: #6f8d4f;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1856,7 +1857,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #6f8d4f;
+  background: #70cf0b;
 }
 
 @keyframes animate-loading {
@@ -2021,4 +2022,26 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+/* icon */
+.icon-bar {
+  width: 100%; /* Set a specific width */
+  padding-top: 30px;
+  /* background-color: #555; Dark-grey background */
+  justify-content: center;
+}
+
+.icon-bar a {
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: #6f8d4f; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+.icon-bar a:hover {
+  background-color: transparent; /* Add a hover color */
+}
+.container1{
+  align-items: center;
+  text-align: center;
 }
